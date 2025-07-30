@@ -61,7 +61,7 @@ public class Main {
         System.out.println("Enter page count:");
         int pageCount = scanner.nextInt();
 
-        library.add(new Book(title, author, year, pageCount));
+        library.add(new Book(title, author,year, pageCount));
     }
 
     public static void addNewAlbum() {
@@ -74,7 +74,7 @@ public class Main {
         System.out.println("Enter track count:");
         int trackCount = scanner.nextInt();
 
-        library.add(new Album(title, author, year, trackCount));
+        library.add(new Album(title,author, year,  trackCount));
     }
 
     public static void addNewMovie() {
@@ -87,7 +87,7 @@ public class Main {
         System.out.println("Enter duration in minutes:");
         int durationInMinutes = scanner.nextInt();
 
-        library.add(new Movie(title, author, year, durationInMinutes));
+        library.add(new Movie(title,author,year,  durationInMinutes));
     }
 
     public static void readBooks() {
